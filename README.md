@@ -45,3 +45,16 @@ esac
 - [Touchpad not working after suspending laptop](https://askubuntu.com/a/828920)
 - [Zbook G5: Touchpad doesn't work after suspend/resume](https://forums.linuxmint.com/viewtopic.php?t=299541)
 
+
+
+
+# Umask
+
+Hardening Ubuntu default UMASK
+
+#### Fix:
+
+add this line to `~/.profile`
+
+`umask 027`
+
